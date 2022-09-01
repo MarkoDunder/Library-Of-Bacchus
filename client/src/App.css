@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Permanent+Marker&display=swap');
+:root{
+    --color-golden: #DCCA87;
+    --color-black: #0C0C0C;
+    
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Permanent Marker', cursive;
+    
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+
+  
+  .slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
